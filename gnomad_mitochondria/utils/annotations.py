@@ -25,10 +25,10 @@ POPS = POPS["v3"]["genomes"]  # pylint: disable=invalid-sequence-index
 POPS.append("NA")
 
 RESOURCES = {
-    "variant_context": "gs://gcp-public-data--gnomad/resources/mitochondria/variant_context/chrM_pos_ref_alt_context_categories.txt",
-    "phylotree": "gs://gcp-public-data--gnomad/resources/mitochondria/phylotree/rCRS-centered_phylo_vars_final_update.txt",
-    "pon_mt_trna": "gs://gcp-public-data--gnomad/resources/mitochondria/trna_predictions/pon_mt_trna_predictions_08_27_2020.txt",
-    "mitotip": "gs://gcp-public-data--gnomad/resources/mitochondria/trna_predictions/mitotip_scores_08_27_2020.txt",
+    "variant_context": "file:///stornext/System/data/apps/rc-tools/rc-tools-1.0/gnomad-mitochondria-files/chrM_pos_ref_alt_context_categories.txt",
+    "phylotree": "file:///stornext/System/data/apps/rc-tools/rc-tools-1.0/gnomad-mitochondria-files/rCRS-centered_phylo_vars_final_update.txt",
+    "pon_mt_trna": "file:///stornext/System/data/apps/rc-tools/rc-tools-1.0/gnomad-mitochondria-files/pon_mt_trna_predictions_08_27_2020.txt",
+    "mitotip": "file:///stornext/System/data/apps/rc-tools/rc-tools-1.0/gnomad-mitochondria-files/mitotip_scores_08_27_2020.txt",
 }
 
 
